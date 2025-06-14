@@ -1,5 +1,21 @@
-A Fibonacci generator is a function or process that produces the Fibonacci sequence, which is a series of numbers where each number is the sum of the two preceding ones. 
-The sequence typically starts with 0 and 1.
-Mathematically, it's defined as:
+🐍 Definition of Snake Game in Python:
+The Snake Game is a classic arcade game where the player controls a snake that moves around the screen, trying to eat food, which causes the snake to grow longer.
+The game ends when the snake collides with the wall or itself.
 
-            F(0)=0,F(1)=1,F(n)=F(n−1)+F(n−2) for n≥2
+💡 In Python:
+The Snake Game is commonly implemented using libraries like:
+
+   ●  turtle – for simple graphics (easy for beginners).
+
+   ●  pygame – for more advanced and interactive graphics.
+
+✅ Main Features of the Game:
+The snake moves in four directions (up, down, left, right).
+
+   ●  Eating food increases the snake’s length and score.
+
+   ●  The game ends if:
+
+   ●  The snake hits the wall.
+
+   ●  The snake hits its own body
